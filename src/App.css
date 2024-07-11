@@ -1,0 +1,252 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family:"Poppins",sans-serif;
+}
+.web-screen{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.web-container{
+  width: 75vw;
+  
+}
+
+.container-heading{
+  font-weight: bold;
+  
+}
+
+.title{
+  padding: 0 0 0.3em 0em;
+  background-color: rgb(238, 238, 238);
+}
+
+.container-body-heading{
+  padding: 0.5em;
+  margin-left: 0.5em;
+}
+
+.container-ncert{
+  font-weight: normal;
+  color: rgb(168, 168, 168);
+  
+}
+
+.container-body-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-left-section{
+   width: 16vw;
+   margin-left: 1em;
+ 
+}
+
+
+.left-section-desc{
+  
+    width: 245px;  
+    height: 355px; 
+    position: relative;
+    overflow:hidden;
+   
+}
+          
+.image1{   
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-top-left-radius: 2px;
+    z-index: 2;
+}
+
+.image1 p{
+  z-index: 55
+}
+
+
+.container-right-section{
+   margin-left: 15px;
+   padding: 0 1em 0 1em ;
+}
+
+.container-right-heading{
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.left-head{
+  display: flex;
+  justify-content: space-between;
+  gap:26em;
+  font-size: 0.8em;
+}
+
+.left-head h2{
+  font-weight: 700;
+}
+
+.total{
+  color: rgb(14, 112, 203);
+  font-size: 15px;
+  
+}
+
+.right-section-heading{
+  padding-top: 10px;
+}
+
+.right-section-heading p{
+  font-size: small;
+  color: rgb(111, 111, 111);
+  padding-bottom: 8px;
+}
+
+.right-section-course{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  padding-left: 0;
+}
+
+.courseRating{
+  color: rgb(119, 119, 119);
+  font-weight: 600;
+}
+
+.right-section-features{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr;
+  padding-bottom: 8px;
+
+}
+
+.features{
+  display: flex;
+  gap: 6px;
+  margin: 6px;
+}
+
+.features p{
+  font-size: 14px;
+}
+
+.right-section-subject{
+  border: 0.2px solid gray;
+  border-radius: 4px;
+}
+
+.subject-heading{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(190, 196, 196);
+  padding: 4px;
+}
+
+.subject-end{
+  color: rgb(44, 44, 88);
+}
+
+.right-section-subjectName{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 4fr 4fr 2fr;
+  padding: 6px;
+}
+
+.features-subject{
+  display: flex;
+  gap: 6px;
+  margin: 6px;
+}
+
+.features-subject p{
+  font-size: 14px;
+}
+
+.right-section-instructor{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.left-part-instructor{
+  display: flex;
+  margin: 20px;
+  margin-left: 0;
+}
+
+.right-part-instructor{
+  display: flex;
+  margin: 18px;
+}
+
+.right-part-instructor p{
+  font-size: 12px;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+
+.profile{
+  width: 25px;
+  height: 26px;
+  margin-right: 8px;
+}
+
+.rating{
+  width: 110px;
+  height: 21px;
+}
+
+.container-price{
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+
+}
+
+.rupees{
+  font-weight: bolder;
+  font-size:x-large;
+}
+
+.right-price{
+  display: flex;
+  margin-right: 70px;
+  gap: 30px;
+}
+
+.right-price button{
+  border-color: blue;
+  color: rgb(31, 0, 142);
+  cursor: pointer;
+
+}
+
+.view-details{
+  padding: 0.9em;
+  border-radius: 8px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+
+}
+
+.buy-now{
+  background-color: blue;
+  color: white;
+  padding: 0.9em;
+  border-radius: 8px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
